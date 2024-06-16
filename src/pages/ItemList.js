@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const AddNew = () => {
+const ItemList = () => {
   return (
     <div>
       <h2>新規登録</h2>
@@ -21,4 +21,4 @@ const AddNew = () => {
   );
 };
 
-export default AddNew;
+export default ItemList;

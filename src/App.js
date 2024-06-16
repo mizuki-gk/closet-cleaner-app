@@ -24,7 +24,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Analyze from './pages/Analyze';
-import AddNewItem from './pages/AddNewItem';
+import ItemList from './pages/ItemList';
 import './App.css';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/analyze" element={<Analyze />} />
-      <Route path="/add-new" element={<AddNewItem />} />
+      <Route path="/add-new" element={<ItemList />} />
     </Routes>
   );
 }
