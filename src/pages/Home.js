@@ -10,11 +10,7 @@ const Home = () => {
       </header>
       <main>
         <Link to="/edit">洋服一覧</Link>
-        <Link to="/add-new">新規登録</Link>
-        <button>削除</button>
-        <button>断捨離</button>
         <Link to="/analyze">分析結果</Link>
-        <button>今日着た服を登録する</button>
       </main>
     </div>
   );

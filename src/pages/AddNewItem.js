@@ -12,6 +12,9 @@ const AddNew = () => {
           <input type="text" name="name" />
         </label>
         <button type="submit">登録</button>
+        <button>削除</button>
+        <button>断捨離</button>
+        <button>今日着た服を登録する</button>
       </form>
       <Link to="/">TOPに戻る</Link>
     </div>
