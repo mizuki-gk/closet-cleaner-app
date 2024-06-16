@@ -9,7 +9,7 @@ const Home = () => {
         <h1>Closet Cleaner</h1>
       </header>
       <main>
-        <Link to="/ItemList">洋服一覧</Link>
+        <Link to="/itemList">洋服一覧</Link>
         <Link to="/analyze">分析結果</Link>
       </main>
     </div>
